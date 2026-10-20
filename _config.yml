@@ -1,0 +1,28 @@
+# ===== 站点设置 =====
+title: "howard.cao · 软件工程师"
+description: "软件工程师，使用 Java、Go、Python，做过后端开发、测试开发、基础架构与 AI 应用开发。"
+url: "https://xiaofeng2824.github.io"
+baseurl: ""
+lang: zh-CN
+
+# ===== 个人信息（改这里） =====
+author:
+  name: howard.cao
+  initial: "H"           # 头像徽章上的字，通常用名字首字
+  role: 软件工程师
+  tagline: 使用 Java、Go、Python，做过后端开发、测试开发、基础架构与 AI 应用开发。
+  email: xiaofeng2824@163.com
+  github: xiaofeng2824    # 只填 GitHub 用户名，不要带 https://github.com/
+  location: ""            # 如：中国 · 上海；留空则不显示
+  status: ""              # 如：开放新机会；留空则不显示
+
+# ===== 构建 =====
+markdown: kramdown
+permalink: pretty
+timezone: Asia/Shanghai
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
